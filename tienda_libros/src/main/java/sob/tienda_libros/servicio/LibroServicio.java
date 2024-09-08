@@ -1,11 +1,13 @@
 package sob.tienda_libros.servicio;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import sob.tienda_libros.modelo.Libro;
 import sob.tienda_libros.repositorio.LibroRepositorio;
 
 import java.util.List;
 
+@Service
 public class LibroServicio implements ILibroServicio{
 
     @Autowired
