@@ -24,4 +24,45 @@ public class Libro {
     double precioLibro;
     int existenciasLibro;
 
+
+
+    public int getIdLibro() {
+        return idLibro;
+    }
+
+    public void setIdLibro(int idLibro) {
+        this.idLibro = idLibro;
+    }
+
+    public String getNombreLibro() {
+        return nombreLibro;
+    }
+
+    public void setNombreLibro(String nombreLibro) {
+        this.nombreLibro = nombreLibro;
+    }
+
+    public String getAutorLibro() {
+        return autorLibro;
+    }
+
+    public void setAutorLibro(String autorLibro) {
+        this.autorLibro = autorLibro;
+    }
+
+    public double getPrecioLibro() {
+        return precioLibro;
+    }
+
+    public void setPrecioLibro(double precioLibro) {
+        this.precioLibro = precioLibro;
+    }
+
+    public int getExistenciasLibro() {
+        return existenciasLibro;
+    }
+
+    public void setExistenciasLibro(int existenciasLibro) {
+        this.existenciasLibro = existenciasLibro;
+    }
 }
